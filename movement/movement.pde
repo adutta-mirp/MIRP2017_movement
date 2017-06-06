@@ -4,7 +4,7 @@ float MAX_VELOCITY = 10;
 
 float bgColor = 255;
 
-float gravity = 0.25;
+//float gravity = 0.25;
 float ballX, ballY;
 float ballVx = 0, ballVy = 0;
 float ballRadius = 10;
@@ -12,8 +12,8 @@ color ballColor = color(100, 180, 70, 150);
 
 float restitutionCoeff = 0.95;
 
-char UP = 'w', LEFT = 'a', RIGHT = 'd';
-boolean up, left, right;
+char UP = 'w', LEFT = 'a', RIGHT = 'd', DOWN = 's';
+boolean up, left, right, down;
 
 boolean keys[] = new boolean [4];
 
